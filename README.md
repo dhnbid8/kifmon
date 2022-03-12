@@ -39,3 +39,17 @@ npm install
 ```
 npm start
 ```
+
+if you have `Error: error:0308010C:digital envelope routines::unsupported` :
+
+Linux & Mac OS (windows git bash) :
+
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
+Windows command prompt :
+
+```
+set NODE_OPTIONS=--openssl-legacy-provider
+```
