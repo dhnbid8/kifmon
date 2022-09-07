@@ -138,4 +138,4 @@ async function createAllWallets() {
 }
 
 
-module.exports = { createAllWallets, createBitcoineWalletBip32 }
+module.exports = { createTronWallet, createAllWallets, createBitcoineWalletBip32 }
